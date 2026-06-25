@@ -1,0 +1,9 @@
+# raw/processed data is reproducible via src/data/download.py — never committed
+# (leading slash anchors to repo root so it does NOT match src/data/)
+/data/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
